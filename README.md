@@ -55,10 +55,3 @@ python -m unittest test_fips_fixer -v
 
 13 tests. The one that matters is `test_raw_join_is_a_disaster`.
 
-## TODO
-
-- [ ] Parse the Census county-changes page directly instead of hardcoding
-- [ ] Population-weighted apportionment for splits, opt-in and clearly labeled
-- [ ] CT planning region ↔ county crosswalk with explicit weights
-- [ ] Full Alaska history
-- [ ] `pip install` packaging
